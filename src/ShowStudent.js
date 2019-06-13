@@ -67,13 +67,7 @@ class ShowStudent extends React.Component{
 
           
         
-       
-        
-
-
       
-
-
       </div>
       
       

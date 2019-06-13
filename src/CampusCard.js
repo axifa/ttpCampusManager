@@ -6,8 +6,8 @@ class CampusCard extends React.Component{
 
   render(){
     return (
-      <div className ="image-c">
-        <div>
+      <div className="image-c" >
+        <div className ="campCardDiv">
            <img src="https://www.uri.edu/wp-content/uploads/home/2018/05/kingston-campus-500x327.jpg" alt="lehman img"/>
         </div>
 
