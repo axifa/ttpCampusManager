@@ -31,7 +31,9 @@ class ShowCampus extends React.Component{
                         </ul>
                     </nav>
                 </header>
-
+                
+             <h2>Campus</h2>
+              
       <div className="image-showCampus">
            <img src="https://www.uri.edu/wp-content/uploads/home/2018/05/kingston-campus-500x327.jpg" alt="lehman img"/>
       

@@ -25,6 +25,7 @@ class ShowStudent extends React.Component{
                     </nav>
                 </header>
         {/* <h1>Show Student</h1> */}
+        <h2> Students</h2>
 
 
         <div className="showStudent">
@@ -46,6 +47,7 @@ class ShowStudent extends React.Component{
 <p>This student is registered in a campus</p>
 
     <div className= "changeCampus">
+     
         <div className="image-c">
             <div className ="showStudentCampImage">
               <img src="https://www.uri.edu/wp-content/uploads/home/2018/05/kingston-campus-500x327.jpg" alt="lehman img"/>

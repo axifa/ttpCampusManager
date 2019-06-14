@@ -193,7 +193,7 @@ footer p{
   color: white;
 
 } */
-h1 {
+h1, h2 {
   display: block;
   font-size: 2em;
   margin-block-start: 0em;
