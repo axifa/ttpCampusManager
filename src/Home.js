@@ -33,21 +33,20 @@ class Home extends React.Component{
                             <li><a href="index.html" target="">Home</a></li>
                             <li><a href="index2.html" target="">Campus</a></li>
                             <li><a href="index3.html" target="">Student</a></li>
-                            <li><a href="index4.html" target="">Contact</a></li>
                         </ul>
                     </nav>
                 </header>
 
     <body>
         <div className ="homePic">
-            <img src = "https://www.gonzaga.edu/-/media/Website/Images/Full-Width-Image-and-Video/About/Other/fw-flyover-video-screenshot.ashx?h=600&w=1440&la=en&hash=2BB5F333CB2B74543077126EAB3907907D5F290F"/>
-
+            <img src = "https://mountsaintvincent.edu/wp-content/uploads/2019/02/CNR-3.jpg"/>
+            <div class="top-left">Campus Manager</div>
         </div>
        
 
                
 <div className ="paras">
-<h1>Information of Campuses & Students</h1>
+<h1 className="heading">Information of Campuses and Students</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus.

@@ -11,7 +11,20 @@ class ShowStudent extends React.Component{
 
      
       <div>
-        <h1>Show Student</h1>
+                    <header>
+                    <nav className="navigation-bar">
+                        <a href="index.html">
+                            <img className="logo" src="https://image.freepik.com/free-vector/university-campus-logo_1447-1791.jpg"
+                             alt="Main logo"/>
+                        </a>
+                        <ul>
+                            <li><a href="index.html" target="">Home</a></li>
+                            <li><a href="index2.html" target="">Campus</a></li>
+                            <li><a href="index3.html" target="">Student</a></li>
+                        </ul>
+                    </nav>
+                </header>
+        {/* <h1>Show Student</h1> */}
 
 
         <div className="showStudent">
@@ -30,15 +43,15 @@ class ShowStudent extends React.Component{
         </div>
 
 
-<h2>This student is registered in a campus</h2>
+<p>This student is registered in a campus</p>
 
     <div className= "changeCampus">
         <div className="image-c">
-            <div>
+            <div className ="showStudentCampImage">
               <img src="https://www.uri.edu/wp-content/uploads/home/2018/05/kingston-campus-500x327.jpg" alt="lehman img"/>
             </div>
 
-            <div>
+            <div className="showStudentDescription">
               <h1> {this.props.campName} </h1>
               <p>5 Students</p>
               <div className="campButton">
@@ -48,22 +61,39 @@ class ShowStudent extends React.Component{
         </div>
 
 
-        <div>
+        <div className="changeCampusBtn">
            <select>
           <option value="">Select Campus</option>
           <option value="hostos">Hostos</option>
           <option value="hunter">Hunter</option>
           <option value="bmcc">BMCC</option>
           </select>
-          <br></br>
-          <br></br>
-          <br></br>
+      
+
+        
           
            <button>Change Campus</button>
-
+       
 
         </div>
 </div>
+
+
+<div >
+                <footer>
+                        
+                      
+                            <ul className="styleF">
+                                <li> <a href="index4.html">Privacy Policy</a></li>
+                                <li> <a href="index4.html">Terms of Use</a></li>
+                                <li> <a href="index4.html">Sponsers</a></li>
+                                <li><a href="index4.html">Location</a></li>
+                            </ul>
+                
+                        <p>&copy; 2019 Campus Manager</p>
+                   
+                    </footer>
+            </div>
 
           
         
